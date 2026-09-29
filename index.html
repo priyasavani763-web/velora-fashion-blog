@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VELORA — a modern fashion discovery and style blog.">
+  <title>VELORA — Fashion, Your Way</title>
+  <!-- GitHub Pages safe build: CSS and JS are also embedded below. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+<style id="velora-fallback-css">
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:"DM Sans",sans-serif;color:#1d1c1a;background:#f8f6f2;line-height:1.6}button,a{font:inherit}button{cursor:pointer;border:0;background:none}a{text-decoration:none;color:inherit}.site-header{height:78px;padding:0 5vw;display:flex;align-items:center;justify-content:space-between;background:#f8f6f2;border-bottom:1px solid #ddd9d2;position:sticky;top:0;z-index:50}.logo{font-family:"Playfair Display",serif;font-size:29px;font-weight:700;letter-spacing:-1px}.logo span{color:#b66c4b}.main-nav{display:flex;gap:38px;margin-left:100px}.main-nav a{font-size:13px;text-transform:uppercase;letter-spacing:1.5px;font-weight:600}.main-nav a:hover,.view-all:hover{color:#b66c4b}.header-actions{display:flex;align-items:center;gap:15px}.icon-btn{font-size:20px;padding:8px}.icon-btn span{font-size:11px;vertical-align:top}.account-btn{border:1px solid #1d1c1a;border-radius:30px;padding:9px 18px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1px}.menu-btn{display:none;font-size:22px}.hero{min-height:690px;padding:70px 7vw 75px;display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:center}.eyebrow{font-size:11px;letter-spacing:2.4px;font-weight:700;color:#9b6148;margin-bottom:18px}.hero h1{font:600 clamp(60px,7vw,104px)/.92 "Playfair Display",serif;letter-spacing:-4px}.hero h1 em,h2 em{font-weight:500}.hero-text{max-width:470px;margin:28px 0 34px;color:#66615a;font-size:15px}.hero-actions{display:flex;align-items:center;gap:26px}.primary-btn{display:inline-flex;align-items:center;justify-content:center;gap:20px;background:#1d1c1a;color:#fff;padding:15px 23px;text-transform:uppercase;letter-spacing:1.5px;font-size:11px;font-weight:700;transition:.25s}.primary-btn:hover{background:#b66c4b;transform:translateY(-2px)}.text-btn{font-size:12px;text-transform:uppercase;letter-spacing:1.2px;font-weight:700;border-bottom:1px solid #1d1c1a;padding-bottom:4px}.hero-visual{height:555px;position:relative}.hero-visual img{width:100%;height:100%;object-fit:cover}.floating-note{position:absolute;right:-25px;bottom:35px;background:#eee8df;padding:20px 24px;display:flex;gap:18px;align-items:flex-start;box-shadow:0 10px 30px #0001}.floating-note span{font-size:10px;color:#9b6148}.floating-note strong{font:600 17px/1.1 "Playfair Display",serif}.marquee{overflow:hidden;white-space:nowrap;background:#1d1c1a;color:#f8f6f2;padding:13px 0;font-size:11px;letter-spacing:3px;display:flex;justify-content:space-around}.marquee b{color:#c78b70}.section{padding:105px 7vw}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:40px}.section-heading h2,.about h2{font:600 clamp(40px,4.5vw,66px)/1 "Playfair Display",serif;letter-spacing:-2px}.section-intro{max-width:360px;color:#777;font-size:14px}.filter-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:32px}.filter{border:1px solid #d5d0c8;padding:10px 17px;font-size:11px;text-transform:uppercase;letter-spacing:1px}.filter.active,.filter:hover{background:#1d1c1a;color:#fff;border-color:#1d1c1a}.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:35px 20px}.product-card{min-width:0}.product-image{height:430px;position:relative;background:#e7e2da;overflow:hidden}.product-image img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.product-card:hover img{transform:scale(1.04)}.heart{position:absolute;right:14px;top:14px;background:#fff;border-radius:50%;width:40px;height:40px;font-size:21px;z-index:2}.heart.saved{background:#1d1c1a;color:#fff}.tag{position:absolute;left:14px;top:14px;background:#fff;padding:6px 9px;font-size:9px;letter-spacing:1.3px;font-weight:700}.tag.dark{background:#1d1c1a;color:#fff}.product-info{display:flex;justify-content:space-between;gap:12px;padding:15px 2px}.product-info h3{font:600 20px "Playfair Display",serif}.product-info p{font-size:11px;color:#888;margin-top:2px}.product-info strong{font-size:12px;white-space:nowrap}.no-results{display:none;text-align:center;color:#888;padding:40px}.style-banner{margin:20px 7vw 110px;padding:80px 7%;background:#a86b50;color:#fff;display:flex;justify-content:space-between;align-items:center;gap:30px}.style-banner .eyebrow{color:#ead4c9}.style-banner h2{font:600 clamp(40px,5vw,68px)/.95 "Playfair Display",serif}.outline-light{color:#fff;border:1px solid #fff;padding:14px 20px;text-transform:uppercase;font-size:11px;letter-spacing:1.2px;white-space:nowrap}.outline-light:hover{background:#fff;color:#a86b50}.journal{padding-top:20px}.view-all{font-size:12px;text-transform:uppercase;letter-spacing:1px;font-weight:700}.article-grid{display:grid;grid-template-columns:1.35fr .825fr .825fr;gap:20px}.article{background:#eeeae3}.article img{width:100%;height:300px;object-fit:cover}.article.large img{height:410px}.article-body{padding:24px}.article-body>span{font-size:9px;letter-spacing:1.7px;color:#a86b50;font-weight:700}.article h3{font:600 25px/1.15 "Playfair Display",serif;margin:10px 0}.article-body p{font-size:13px;color:#777;margin:12px 0 16px}.read-btn{font-size:11px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid #222;padding-bottom:4px;font-weight:700}.about{padding:100px 7vw;display:grid;grid-template-columns:1fr 1fr;gap:8vw;align-items:center;background:#e9e3da}.about-image img{width:100%;height:550px;object-fit:cover}.about-copy>p:not(.eyebrow){color:#67625c;font-size:14px;max-width:500px;margin:25px 0}.about-copy .primary-btn{margin-top:8px}footer{background:#1d1c1a;color:#f8f6f2;padding:60px 7vw;display:flex;justify-content:space-between;align-items:end;gap:30px}footer .logo{color:#fff}footer p{font-size:12px;color:#aaa}.footer-links{display:flex;gap:25px;font-size:12px;text-transform:uppercase;letter-spacing:1px}.copyright{font-size:10px!important}.modal-overlay{position:fixed;inset:0;background:#1d1c1acc;backdrop-filter:blur(5px);display:none;align-items:center;justify-content:center;padding:20px;z-index:100}.modal-overlay.open{display:flex}.modal{width:min(450px,100%);background:#f8f6f2;padding:42px;position:relative;box-shadow:0 25px 70px #0005}.modal h2{font:600 40px/1 "Playfair Display",serif;margin-bottom:10px}.modal-sub{font-size:13px;color:#777;margin-bottom:25px}.close-modal{position:absolute;right:17px;top:12px;font-size:28px;color:#777}.form-group{margin-bottom:17px}.form-group label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:1px;font-weight:700;margin-bottom:6px}.form-group input,.search-input{width:100%;padding:13px 14px;border:1px solid #d2cdc5;background:#fff;outline:none}.form-group input:focus,.search-input:focus{border-color:#a86b50}.error{display:block;color:#b54835;font-size:10px;margin-top:4px;min-height:13px}.full{width:100%;margin-top:4px}.switch-auth{text-align:center;font-size:12px;color:#777;margin-top:20px}.switch-auth button{color:#a86b50;text-decoration:underline}.hidden{display:none}.quiz-modal{max-width:550px}.quiz-question{font:600 27px "Playfair Display",serif;margin:5px 0 24px}.quiz-options{display:grid;grid-template-columns:1fr 1fr;gap:10px}.quiz-option{border:1px solid #d2cdc5;padding:16px;text-align:left;font-size:12px}.quiz-option:hover{border-color:#a86b50;background:#eee8df}.quiz-result{padding-top:10px}.quiz-result h3{font:600 35px "Playfair Display",serif}.quiz-result p{color:#777;margin:10px 0 20px}.search-modal{max-width:650px}.search-input{font-size:17px;margin:15px 0}.search-item{display:flex;justify-content:space-between;padding:14px 2px;border-bottom:1px solid #ddd;font-size:13px}.toast{position:fixed;bottom:25px;right:25px;background:#1d1c1a;color:#fff;padding:13px 18px;font-size:12px;transform:translateY(100px);opacity:0;transition:.3s;z-index:200}.toast.show{transform:translateY(0);opacity:1}@media(max-width:900px){.main-nav{margin-left:0;gap:18px}.hero{grid-template-columns:1fr;padding-top:50px}.hero-visual{height:480px}.product-grid{grid-template-columns:repeat(2,1fr)}.article-grid{grid-template-columns:1fr 1fr}.article.large{grid-column:1/-1}.about{grid-template-columns:1fr}.style-banner{display:block}.style-banner .outline-light{margin-top:25px}.section-heading{display:block}.section-intro{margin-top:18px}}@media(max-width:650px){.site-header{height:68px}.main-nav{display:none;position:absolute;top:68px;left:0;right:0;background:#f8f6f2;border-bottom:1px solid #ddd;padding:25px;flex-direction:column}.main-nav.open{display:flex}.menu-btn{display:block}.header-actions{gap:5px}.icon-btn:first-child{display:none}.hero{padding:45px 6vw;gap:40px}.hero h1{font-size:58px;letter-spacing:-2px}.hero-visual{height:420px}.floating-note{right:-8px}.section{padding:75px 6vw}.product-grid{grid-template-columns:1fr}.product-image{height:500px}.style-banner{margin:0 6vw 80px;padding:55px 8%}.article-grid{grid-template-columns:1fr}.article.large{grid-column:auto}.article.large img,.article img{height:360px}.about{padding:70px 6vw}.about-image img{height:420px}footer{display:block}footer .footer-links{margin:25px 0}.modal{padding:32px 24px}.quiz-options{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+  <header class="site-header" id="home">
+    <a class="logo" href="#home">VELORA<span>.</span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#discover">Discover</a>
+      <a href="#journal">Journal</a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button>
+      <button class="icon-btn" id="favoritesBtn" aria-label="Favorites">♡ <span id="favCount">0</span></button>
+      <button class="account-btn" id="accountBtn">Log in</button>
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">THE NEW EDIT • 2026</p>
+        <h1>Wear your<br><em>own story.</em></h1>
+        <p class="hero-text">Discover pieces, create looks, and find the style that feels like you. A fashion journal made for people who don't follow one aesthetic.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#discover">Explore the edit <span>→</span></a>
+          <button class="text-btn" id="styleQuizBtn">Find my style ✦</button>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1100&q=90" alt="Fashion clothing rack">
+        <div class="floating-note">
+          <span>01</span>
+          <strong>STYLE<br>IS PERSONAL.</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Fashion categories">
+      <span>NEW SEASON</span><b>✦</b><span>YOUR STYLE</span><b>✦</b><span>YOUR RULES</span><b>✦</b>
+      <span>NEW SEASON</span><b>✦</b><span>YOUR STYLE</span><b>✦</b><span>YOUR RULES</span>
+    </section>
+
+    <section class="section" id="discover">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CURATED FOR YOU</p>
+          <h2>Discover your <em>next look.</em></h2>
+        </div>
+        <p class="section-intro">Browse the edit by category. Save your favorites and build your own visual wardrobe.</p>
+      </div>
+
+      <div class="filter-row" id="filters">
+        <button class="filter active" data-filter="all">All pieces</button>
+        <button class="filter" data-filter="dress">Dresses</button>
+        <button class="filter" data-filter="top">Tops</button>
+        <button class="filter" data-filter="outerwear">Outerwear</button>
+        <button class="filter" data-filter="accessory">Accessories</button>
+        <button class="filter" data-filter="shoes">Shoes</button>
+      </div>
+
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="dress" data-name="Satin Slip Dress" data-style="minimal">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=800&q=90" alt="Satin dress">
+            <button class="heart" data-id="1" aria-label="Save Satin Slip Dress">♡</button>
+            <span class="tag">TRENDING</span>
+          </div>
+          <div class="product-info"><div><h3>Satin Slip Dress</h3><p>Minimal / Evening</p></div><strong>₹2,490</strong></div>
+        </article>
+
+        <article class="product-card" data-category="top" data-name="Soft Knit Set" data-style="cozy">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=800&q=90" alt="Neutral knit clothing">
+            <button class="heart" data-id="2" aria-label="Save Soft Knit Set">♡</button>
+          </div>
+          <div class="product-info"><div><h3>Soft Knit Set</h3><p>Cozy / Everyday</p></div><strong>₹1,890</strong></div>
+        </article>
+
+        <article class="product-card" data-category="outerwear" data-name="City Trench" data-style="classic">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1496217590455-aa63a8350eea?auto=format&fit=crop&w=800&q=90" alt="Fashion trench coat">
+            <button class="heart" data-id="3" aria-label="Save City Trench">♡</button>
+            <span class="tag dark">EDITOR'S PICK</span>
+          </div>
+          <div class="product-info"><div><h3>City Trench</h3><p>Classic / Tailored</p></div><strong>₹3,990</strong></div>
+        </article>
+
+        <article class="product-card" data-category="accessory" data-name="Sculptural Bag" data-style="bold">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=90" alt="Fashion handbag">
+            <button class="heart" data-id="4" aria-label="Save Sculptural Bag">♡</button>
+          </div>
+          <div class="product-info"><div><h3>Sculptural Bag</h3><p>Statement / Bold</p></div><strong>₹1,650</strong></div>
+        </article>
+
+        <article class="product-card" data-category="shoes" data-name="Everyday Loafers" data-style="classic">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=90" alt="Fashion shoes">
+            <button class="heart" data-id="5" aria-label="Save Everyday Loafers">♡</button>
+          </div>
+          <div class="product-info"><div><h3>Everyday Loafers</h3><p>Classic / Street</p></div><strong>₹2,250</strong></div>
+        </article>
+
+        <article class="product-card" data-category="top" data-name="Linen Essential" data-style="minimal">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=90" alt="Minimal fashion outfit">
+            <button class="heart" data-id="6" aria-label="Save Linen Essential">♡</button>
+            <span class="tag">NEW</span>
+          </div>
+          <div class="product-info"><div><h3>Linen Essential</h3><p>Minimal / Resort</p></div><strong>₹1,290</strong></div>
+        </article>
+      </div>
+      <p class="no-results" id="noResults">No pieces found in this edit.</p>
+    </section>
+
+    <section class="style-banner">
+      <div>
+        <p class="eyebrow">NOT SURE WHERE TO START?</p>
+        <h2>Your wardrobe.<br><em>Your aesthetic.</em></h2>
+      </div>
+      <button class="outline-light" id="styleQuizBtn2">Take the 30-sec style quiz →</button>
+    </section>
+
+    <section class="section journal" id="journal">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE VELORA JOURNAL</p><h2>Stories worth <em>wearing.</em></h2></div>
+        <a href="#journal" class="view-all">View all stories →</a>
+      </div>
+      <div class="article-grid">
+        <article class="article large">
+          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=90" alt="Fashion editorial">
+          <div class="article-body"><span>STYLE GUIDE · 06 MIN</span><h3>How to build a wardrobe that actually feels like you</h3><p>Less noise, more personality. Five simple rules for creating your signature style.</p><button class="read-btn" data-title="How to build a wardrobe that actually feels like you">Read story →</button></div>
+        </article>
+        <article class="article">
+          <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=90" alt="Street style">
+          <div class="article-body"><span>TRENDS · 04 MIN</span><h3>The quiet luxury edit: timeless pieces for every day</h3><button class="read-btn" data-title="The quiet luxury edit">Read story →</button></div>
+        </article>
+        <article class="article">
+          <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=90" alt="Fashion details">
+          <div class="article-body"><span>DETAILS · 03 MIN</span><h3>Why accessories can change an entire outfit</h3><button class="read-btn" data-title="Why accessories can change an entire outfit">Read story →</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-image"><img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1000&q=90" alt="Clothing boutique"></div>
+      <div class="about-copy"><p class="eyebrow">ABOUT VELORA</p><h2>Fashion is not a formula.<br><em>It's a feeling.</em></h2><p>VELORA is a student-built fashion discovery blog created around one idea: great style starts when you stop dressing for a category and start dressing for yourself.</p><p>Explore trends, save pieces you love, and create your own visual language.</p><a href="#discover" class="primary-btn">Start exploring →</a></div>
+    </section>
+  </main>
+
+  <footer>
+    <div><a class="logo" href="#home">VELORA<span>.</span></a><p>Fashion, your way.</p></div>
+    <div class="footer-links"><a href="#discover">Discover</a><a href="#journal">Journal</a><a href="#about">About</a></div>
+    <p class="copyright">© 2026 VELORA. Academic project.</p>
+  </footer>
+
+  <!-- Login / Signup Modal -->
+  <div class="modal-overlay" id="authModal">
+    <div class="modal">
+      <button class="close-modal" data-close="authModal">×</button>
+      <p class="eyebrow" id="authEyebrow">WELCOME BACK</p>
+      <h2 id="authTitle">Log in to VELORA</h2>
+      <p class="modal-sub">Save your favorite pieces and make your style board.</p>
+      <form id="authForm" novalidate>
+        <div class="form-group signup-only hidden"><label for="fullName">Full name</label><input id="fullName" type="text" placeholder="Your name"></div>
+        <div class="form-group"><label for="email">Email</label><input id="email" type="email" placeholder="you@example.com"><small class="error" id="emailError"></small></div>
+        <div class="form-group"><label for="password">Password</label><input id="password" type="password" placeholder="Minimum 6 characters"><small class="error" id="passwordError"></small></div>
+        <button class="primary-btn full" type="submit" id="authSubmit">Log in →</button>
+      </form>
+      <p class="switch-auth"><span id="switchText">New here?</span> <button type="button" id="switchAuth">Create an account</button></p>
+    </div>
+  </div>
+
+  <!-- Style Quiz Modal -->
+  <div class="modal-overlay" id="quizModal">
+    <div class="modal quiz-modal">
+      <button class="close-modal" data-close="quizModal">×</button>
+      <p class="eyebrow">30-SECOND STYLE QUIZ</p>
+      <div id="quizContent"></div>
+    </div>
+  </div>
+
+  <!-- Search Modal -->
+  <div class="modal-overlay" id="searchModal">
+    <div class="modal search-modal">
+      <button class="close-modal" data-close="searchModal">×</button>
+      <p class="eyebrow">SEARCH THE EDIT</p>
+      <h2>Find your piece.</h2>
+      <input class="search-input" id="searchInput" type="search" placeholder="Try “dress”, “classic”, “bag”...">
+      <div id="searchResults"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="./script.js"></script>
+<script id="velora-fallback-js">
+document.addEventListener("DOMContentLoaded", () => {
+  const $ = (s) => document.querySelector(s);
+  const $$ = (s) => document.querySelectorAll(s);
+
+  // Mobile navigation
+  $("#menuBtn").addEventListener("click", () => $("#mainNav").classList.toggle("open"));
+  $$("#mainNav a").forEach(a => a.addEventListener("click", () => $("#mainNav").classList.remove("open")));
+
+  // Modal helpers
+  const openModal = id => $("#" + id).classList.add("open");
+  const closeModal = id => $("#" + id).classList.remove("open");
+  $$(".close-modal").forEach(btn => btn.addEventListener("click", () => closeModal(btn.dataset.close)));
+  $$(".modal-overlay").forEach(overlay => overlay.addEventListener("click", e => {
+    if (e.target === overlay) overlay.classList.remove("open");
+  }));
+
+  // Login / signup with frontend validation + localStorage demo
+  let signupMode = false;
+  $("#accountBtn").addEventListener("click", () => openModal("authModal"));
+  $("#switchAuth").addEventListener("click", () => {
+    signupMode = !signupMode;
+    $$(".signup-only").forEach(el => el.classList.toggle("hidden", !signupMode));
+    $("#authEyebrow").textContent = signupMode ? "JOIN VELORA" : "WELCOME BACK";
+    $("#authTitle").textContent = signupMode ? "Create your account" : "Log in to VELORA";
+    $("#authSubmit").textContent = signupMode ? "Create account →" : "Log in →";
+    $("#switchText").textContent = signupMode ? "Already a member?" : "New here?";
+    $("#switchAuth").textContent = signupMode ? "Log in" : "Create an account";
+  });
+
+  $("#authForm").addEventListener("submit", e => {
+    e.preventDefault();
+    const email = $("#email").value.trim();
+    const password = $("#password").value;
+    const name = $("#fullName").value.trim();
+    let valid = true;
+
+    $("#emailError").textContent = "";
+    $("#passwordError").textContent = "";
+
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      $("#emailError").textContent = "Please enter a valid email address.";
+      valid = false;
+    }
+    if (password.length < 6) {
+      $("#passwordError").textContent = "Password must contain at least 6 characters.";
+      valid = false;
+    }
+    if (signupMode && name.length < 2) {
+      showToast("Please enter your full name.");
+      valid = false;
+    }
+    if (!valid) return;
+
+    if (signupMode) {
+      localStorage.setItem("veloraUser", JSON.stringify({name, email}));
+      showToast("Account created successfully!");
+    } else {
+      showToast("Login successful — welcome to VELORA!");
+    }
+    closeModal("authModal");
+    $("#authForm").reset();
+  });
+
+  // Product filters
+  $$("#filters .filter").forEach(btn => btn.addEventListener("click", () => {
+    $$("#filters .filter").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    const filter = btn.dataset.filter;
+    let visible = 0;
+    $$("#productGrid .product-card").forEach(card => {
+      const show = filter === "all" || card.dataset.category === filter;
+      card.style.display = show ? "" : "none";
+      if (show) visible++;
+    });
+    $("#noResults").style.display = visible ? "none" : "block";
+  }));
+
+  // Favorites
+  let favorites = JSON.parse(localStorage.getItem("veloraFavorites") || "[]");
+  const updateFavorites = () => {
+    $("#favCount").textContent = favorites.length;
+    $$(".heart").forEach(btn => {
+      const saved = favorites.includes(btn.dataset.id);
+      btn.classList.toggle("saved", saved);
+      btn.textContent = saved ? "♥" : "♡";
+    });
+    localStorage.setItem("veloraFavorites", JSON.stringify(favorites));
+  };
+  $$(".heart").forEach(btn => btn.addEventListener("click", () => {
+    const id = btn.dataset.id;
+    if (favorites.includes(id)) {
+      favorites = favorites.filter(x => x !== id);
+      showToast("Removed from your favorites.");
+    } else {
+      favorites.push(id);
+      showToast("Saved to your favorites ♡");
+    }
+    updateFavorites();
+  }));
+  $("#favoritesBtn").addEventListener("click", () => {
+    const savedCards = [...$$(".product-card")].filter(c => favorites.includes(c.querySelector(".heart").dataset.id));
+    if (!savedCards.length) return showToast("Your favorites are empty — explore the edit!");
+    savedCards.forEach(c => c.scrollIntoView({behavior:"smooth", block:"center"}));
+  });
+  updateFavorites();
+
+  // Search
+  $("#searchBtn").addEventListener("click", () => {
+    openModal("searchModal");
+    $("#searchInput").focus();
+    renderSearch("");
+  });
+  $("#searchInput").addEventListener("input", e => renderSearch(e.target.value));
+  function renderSearch(term) {
+    const q = term.toLowerCase();
+    const cards = [...$$(".product-card")].filter(card => {
+      const text = (card.dataset.name + " " + card.dataset.style + " " + card.dataset.category).toLowerCase();
+      return text.includes(q);
+    });
+    $("#searchResults").innerHTML = cards.length
+      ? cards.map(c => `<div class="search-item"><span>${c.dataset.name}</span><small>${c.dataset.style}</small></div>`).join("")
+      : `<p style="color:#888;font-size:13px;padding-top:10px">No pieces match your search.</p>`;
+  }
+
+  // Style quiz
+  const quizQuestions = [
+    {q:"Pick a weekend mood.", a:[["Coffee + clean lines","minimal"],["Slow Sunday + soft layers","cozy"],["City walk + tailored coat","classic"],["Gallery opening + statement piece","bold"]]},
+    {q:"Choose a color story.", a:[["Cream, white, black","minimal"],["Oat, chocolate, warm beige","cozy"],["Navy, camel, burgundy","classic"],["Cherry, cobalt, silver","bold"]]},
+    {q:"Your ideal outfit has...", a:[["Simple silhouettes","minimal"],["Comfort first","cozy"],["Sharp details","classic"],["A little drama","bold"]]}
+  ];
+  let quizStep = 0, quizScores = {};
+  function showQuiz() {
+    quizStep = 0; quizScores = {};
+    openModal("quizModal");
+    renderQuiz();
+  }
+  function renderQuiz() {
+    if (quizStep >= quizQuestions.length) return showQuizResult();
+    const item = quizQuestions[quizStep];
+    $("#quizContent").innerHTML = `
+      <p style="font-size:11px;color:#999">${quizStep + 1} / ${quizQuestions.length}</p>
+      <h3 class="quiz-question">${item.q}</h3>
+      <div class="quiz-options">${item.a.map(([text,style]) =>
+        `<button class="quiz-option" data-style="${style}">${text}</button>`).join("")}</div>`;
+    $$(".quiz-option").forEach(btn => btn.addEventListener("click", () => {
+      quizScores[btn.dataset.style] = (quizScores[btn.dataset.style] || 0) + 1;
+      quizStep++;
+      renderQuiz();
+    }));
+  }
+  function showQuizResult() {
+    const style = Object.entries(quizScores).sort((a,b) => b[1]-a[1])[0][0];
+    const data = {
+      minimal:["The Minimalist","Clean silhouettes, neutral tones and pieces that make simplicity look intentional."],
+      cozy:["The Soft Edit","Relaxed layers, warm textures and effortless outfits that still look polished."],
+      classic:["The Modern Classic","Tailoring, timeless colors and wardrobe staples with a contemporary edge."],
+      bold:["The Statement Maker","Unexpected color, strong accessories and looks that start conversations."]
+    }[style];
+    $("#quizContent").innerHTML = `<div class="quiz-result"><p class="eyebrow">YOUR VELORA STYLE</p><h3>${data[0]}</h3><p>${data[1]}</p><button class="primary-btn full" id="quizExplore">Explore ${data[0]} →</button></div>`;
+    $("#quizExplore").addEventListener("click", () => {
+      closeModal("quizModal");
+      $$("#productGrid .product-card").forEach(c => c.style.display = c.dataset.style === style ? "" : "none");
+      $$("#filters .filter").forEach(b => b.classList.remove("active"));
+      $("#noResults").style.display = "none";
+      $("#discover").scrollIntoView({behavior:"smooth"});
+      showToast("Your style edit is ready ✦");
+    });
+  }
+  $("#styleQuizBtn").addEventListener("click", showQuiz);
+  $("#styleQuizBtn2").addEventListener("click", showQuiz);
+
+  // Blog story demo
+  $$(".read-btn").forEach(btn => btn.addEventListener("click", () => {
+    showToast(`Opening: ${btn.dataset.title}`);
+  }));
+
+  function showToast(message) {
+    const toast = $("#toast");
+    toast.textContent = message;
+    toast.classList.add("show");
+    clearTimeout(window.toastTimer);
+    window.toastTimer = setTimeout(() => toast.classList.remove("show"), 2500);
+  }
+});
+</script>
+</body>
+</html>
